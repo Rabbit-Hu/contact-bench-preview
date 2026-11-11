@@ -1,6 +1,6 @@
 # Contact benchmark preview
 
-Static interactive preview of linear shake, rocking shake and snap wedge experiments.
+Static interactive preview of linear shake, rocking shake, snap wedge and wedge force-window experiments.
 
 Open `index.html` in a browser. No build step or simulator installation is needed.
 The plots are available immediately; each 3D replay loads on request, with one active at a time.
