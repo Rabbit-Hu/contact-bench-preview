@@ -1,0 +1,247 @@
+{
+  "case": "thin-capture",
+  "finger_geometry": "symmetric_pads_v2",
+  "physical_hardware": "Stock YAM / Linear4310",
+  "control_hz": 240,
+  "reference": "Ideal zero slip during raised hold, shake and post-hold",
+  "shake": {
+    "axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "amplitude": 0.02,
+    "frequency": 2.0,
+    "ramp": 0.5
+  },
+  "evaluation_interval_s": [
+    4.7,
+    9.695833333333333
+  ],
+  "shake_interval_s": [
+    5.7,
+    8.7
+  ],
+  "runs": [
+    {
+      "backend": "isaacsim",
+      "param_variant": "general",
+      "retained": true,
+      "max_slip_mm": 0.013215534173756004,
+      "physics_ms_per_frame": 4.095090417203379,
+      "timing_episodes": 3,
+      "substeps": 1,
+      "iterations": 32,
+      "trajectory_sha256": "37211d9fbff4403f1259e1f3037a75a2218605355c1ea10cfd8cceefd516a9c5",
+      "source_run": "outputs/thin_pick_shake/runs/isaacsim_general_40511ec207ce",
+      "versions": {
+        "isaacsim": "5.1.0.0",
+        "torch": "2.7.0+cu128"
+      },
+      "measured_shake_half_range_mm": [
+        20.06310966595451,
+        0.0003295787551281725,
+        0.9427504149894239
+      ],
+      "median_measured_jaw_normal_N": [
+        2.000042200088501,
+        2.0000321865081787
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        3.226520880784747e-05,
+        0.08676237768751237,
+        0.00011951398411053578
+      ]
+    },
+    {
+      "backend": "mjwarp",
+      "param_variant": "general",
+      "retained": true,
+      "max_slip_mm": 1.0386068619779596,
+      "physics_ms_per_frame": 1.375092882952904,
+      "timing_episodes": 3,
+      "substeps": 4,
+      "iterations": 50,
+      "trajectory_sha256": "07e59e47d2bc5921977a333958c630270a5188984d00c65d8c17b89fcf3c4ca8",
+      "source_run": "outputs/thin_pick_shake/runs/mjwarp_general_229b8d85f9f3",
+      "versions": {
+        "mujoco": "3.13.0",
+        "mujoco-warp": "3.15.0",
+        "warp-lang": "1.15.0"
+      },
+      "measured_shake_half_range_mm": [
+        20.081306285965105,
+        0.00023344026054932638,
+        0.9497793369576124
+      ],
+      "median_measured_jaw_normal_N": [
+        1.4754182994365692,
+        1.4754189103841782
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        4.7167224521434135e-06,
+        0.08820506066661477,
+        9.959126878780883e-05
+      ]
+    },
+    {
+      "backend": "mjwarp",
+      "param_variant": "tuned",
+      "retained": true,
+      "max_slip_mm": 0.10713983303858482,
+      "physics_ms_per_frame": 5.231904884386063,
+      "timing_episodes": 3,
+      "substeps": 16,
+      "iterations": 50,
+      "trajectory_sha256": "acd86235fe48da610849eef592bba1ab0d6e01cb06cfd61a114b6975914296e2",
+      "source_run": "outputs/thin_pick_shake/runs/mjwarp_tuned_31a293105ef1",
+      "versions": {
+        "mujoco": "3.13.0",
+        "mujoco-warp": "3.15.0",
+        "warp-lang": "1.15.0"
+      },
+      "measured_shake_half_range_mm": [
+        20.063342273034994,
+        0.0002365910180600087,
+        0.9478587691599261
+      ],
+      "median_measured_jaw_normal_N": [
+        2.0000011175870895,
+        2.000001072883606
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        7.084887683088946e-06,
+        0.08809919252859591,
+        9.939943582294443e-05
+      ]
+    },
+    {
+      "backend": "genesis_ipc",
+      "param_variant": "general",
+      "retained": true,
+      "max_slip_mm": 0.0013308530594573383,
+      "physics_ms_per_frame": 77.70590108196821,
+      "timing_episodes": 1,
+      "substeps": 1,
+      "iterations": null,
+      "trajectory_sha256": "0fa8f153ba25c6bffd9931bac9ce604faa0e7f11d2dfe07076281896e035f288",
+      "source_run": "outputs/thin_pick_shake/runs/genesis_ipc_general_e55f0ca997a6",
+      "versions": {
+        "genesis-world": "1.4.5",
+        "pyuipc": "0.0.29",
+        "quadrants": "1.3.3",
+        "torch": "2.8.0+cu128",
+        "mujoco": "3.13.0"
+      },
+      "measured_shake_half_range_mm": [
+        20.150818997031276,
+        0.0003159244306499653,
+        0.9361513026465706
+      ],
+      "median_measured_jaw_normal_N": [
+        2.000017362867907,
+        2.0000169828158914
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        5.777092062160125e-06,
+        0.08812224195551802,
+        8.907799794682963e-05
+      ]
+    },
+    {
+      "backend": "genesis_ipc",
+      "param_variant": "tuned",
+      "retained": true,
+      "max_slip_mm": 0.0013454782618698268,
+      "physics_ms_per_frame": 74.71535201392037,
+      "timing_episodes": 1,
+      "substeps": 1,
+      "iterations": null,
+      "trajectory_sha256": "32a0990c04886fe087aecc5dc09853fe3307fbd033e14297828ed509177eada1",
+      "source_run": "outputs/thin_pick_shake/runs/genesis_ipc_tuned_ea2f5c2b117a",
+      "versions": {
+        "genesis-world": "1.4.5",
+        "pyuipc": "0.0.29",
+        "quadrants": "1.3.3",
+        "torch": "2.8.0+cu128",
+        "mujoco": "3.13.0"
+      },
+      "measured_shake_half_range_mm": [
+        20.15083153475422,
+        0.000311124143880364,
+        0.936153921666405
+      ],
+      "median_measured_jaw_normal_N": [
+        2.0000170254604317,
+        2.0000170075652184
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        6.003236768212387e-06,
+        0.08812664216951932,
+        9.138295938856036e-05
+      ]
+    },
+    {
+      "backend": "steel",
+      "param_variant": "general",
+      "retained": false,
+      "max_slip_mm": 92.32595543895269,
+      "physics_ms_per_frame": 0.5510705536274328,
+      "timing_episodes": 3,
+      "substeps": 1,
+      "iterations": 12,
+      "trajectory_sha256": "4ece84581e636f4a9478a3bfceca27ff59c9c8c4c404eca1e233daeb14ac4589",
+      "source_run": "outputs/thin_pick_shake/runs/steel_general_ab180912080a",
+      "versions": {
+        "newton": "1.8.0rc1",
+        "warp-lang": "1.19.0",
+        "mujoco": "3.17.0"
+      },
+      "measured_shake_half_range_mm": [
+        19.95582724790912,
+        0.00022647462512004663,
+        0.9269516762809293
+      ],
+      "median_measured_jaw_normal_N": [
+        0.0,
+        0.0
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        4.275010574432903e-06,
+        0.08629260780252553,
+        9.9349628812372e-05
+      ]
+    },
+    {
+      "backend": "steel",
+      "param_variant": "tuned",
+      "retained": true,
+      "max_slip_mm": 0.012578704909516793,
+      "physics_ms_per_frame": 9.555173204726541,
+      "timing_episodes": 3,
+      "substeps": 16,
+      "iterations": 12,
+      "trajectory_sha256": "5ba4de46ddb0754fc5f93c42f53d22966560a9d0d615604a3c07d93e14a7a655",
+      "source_run": "outputs/thin_pick_shake/runs/steel_tuned_273266b2892c",
+      "versions": {
+        "newton": "1.8.0rc1",
+        "warp-lang": "1.19.0",
+        "mujoco": "3.17.0"
+      },
+      "measured_shake_half_range_mm": [
+        20.051276823949195,
+        0.00023925232431526973,
+        0.9455769059695807
+      ],
+      "median_measured_jaw_normal_N": [
+        1.98668422549963,
+        1.9765913635492325
+      ],
+      "measured_shake_rotation_half_range_deg": [
+        9.730748087235875e-06,
+        0.0879523429718006,
+        0.00010088232565754141
+      ]
+    }
+  ]
+}

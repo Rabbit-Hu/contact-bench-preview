@@ -1,0 +1,308 @@
+[
+  {
+    "case": "thin-capture",
+    "trial": "iterations96",
+    "iterations": 96,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 90.00425857825758,
+    "max_probe_rotation_deg": 107.83244236904041,
+    "max_acquisition_source_penetration_mm": 1.8042262530034603,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-capture",
+    "trial": "recovery0p05",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": true,
+    "max_probe_slip_mm": 0.7379401877281458,
+    "max_probe_rotation_deg": 4.784610541056705,
+    "max_acquisition_source_penetration_mm": 2.9342191447397448,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "baumgarte": 0.05
+    }
+  },
+  {
+    "case": "thin-capture",
+    "trial": "recovery0p1",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 79.86912108771654,
+    "max_probe_rotation_deg": 9.167550799937038,
+    "max_acquisition_source_penetration_mm": 2.5012751694769495,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "baumgarte": 0.1
+    }
+  },
+  {
+    "case": "thin-capture",
+    "trial": "regularization0p1",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 90.13059886270605,
+    "max_probe_rotation_deg": 128.18202374998384,
+    "max_acquisition_source_penetration_mm": 1.6888092858202908,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "contact_regularization": 0.1
+    }
+  },
+  {
+    "case": "thin-capture",
+    "trial": "relaxation0p5",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 90.11866258055167,
+    "max_probe_rotation_deg": 131.29634305345854,
+    "max_acquisition_source_penetration_mm": 1.684698175687156,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "relaxation": 0.5
+    }
+  },
+  {
+    "case": "thin-capture",
+    "trial": "speculative0p25",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 88.55778484904812,
+    "max_probe_rotation_deg": 141.68690295615932,
+    "max_acquisition_source_penetration_mm": 1.6901322942577846,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "contact_speculative_scale": 0.25
+    }
+  },
+  {
+    "case": "thin-capture",
+    "trial": "substeps16",
+    "iterations": 12,
+    "substeps": 16,
+    "retained": true,
+    "max_probe_slip_mm": 0.016227944226164612,
+    "max_probe_rotation_deg": 0.086070101670904,
+    "max_acquisition_source_penetration_mm": 0.06398712891609924,
+    "clean_release": true,
+    "diagnostic_candidate": true,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-capture",
+    "trial": "substeps2",
+    "iterations": 12,
+    "substeps": 2,
+    "retained": false,
+    "max_probe_slip_mm": 91.64655397724273,
+    "max_probe_rotation_deg": 176.4846090374637,
+    "max_acquisition_source_penetration_mm": 1.6531633985629346,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-capture",
+    "trial": "substeps4",
+    "iterations": 12,
+    "substeps": 4,
+    "retained": true,
+    "max_probe_slip_mm": 0.9910029922846895,
+    "max_probe_rotation_deg": 3.301097127356646,
+    "max_acquisition_source_penetration_mm": 0.854562520416059,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-capture",
+    "trial": "substeps4_iterations96",
+    "iterations": 96,
+    "substeps": 4,
+    "retained": true,
+    "max_probe_slip_mm": 0.013567938446437012,
+    "max_probe_rotation_deg": 0.14410927623375427,
+    "max_acquisition_source_penetration_mm": 0.04211273061680561,
+    "clean_release": true,
+    "diagnostic_candidate": true,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-capture",
+    "trial": "substeps8",
+    "iterations": 12,
+    "substeps": 8,
+    "retained": true,
+    "max_probe_slip_mm": 0.06140039164826615,
+    "max_probe_rotation_deg": 0.6274423359867553,
+    "max_acquisition_source_penetration_mm": 0.23618952493165216,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-release",
+    "trial": "iterations96",
+    "iterations": 96,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 90.48318638869378,
+    "max_probe_rotation_deg": 104.50551966714325,
+    "max_acquisition_source_penetration_mm": 1.4037800579278594,
+    "clean_release": false,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-release",
+    "trial": "recovery0p05",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": true,
+    "max_probe_slip_mm": 4.845660554839871,
+    "max_probe_rotation_deg": 5.8137553921979155,
+    "max_acquisition_source_penetration_mm": 2.9739123684544095,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "baumgarte": 0.05
+    }
+  },
+  {
+    "case": "thin-release",
+    "trial": "recovery0p1",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 79.86771554161287,
+    "max_probe_rotation_deg": 4.514417171828667,
+    "max_acquisition_source_penetration_mm": 2.2708591283794997,
+    "clean_release": false,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "baumgarte": 0.1
+    }
+  },
+  {
+    "case": "thin-release",
+    "trial": "regularization0p1",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 89.48219131910058,
+    "max_probe_rotation_deg": 145.2938996475526,
+    "max_acquisition_source_penetration_mm": 1.6781133879439172,
+    "clean_release": false,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "contact_regularization": 0.1
+    }
+  },
+  {
+    "case": "thin-release",
+    "trial": "relaxation0p5",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 92.01548447627314,
+    "max_probe_rotation_deg": 179.61656147403784,
+    "max_acquisition_source_penetration_mm": 1.6834403391163526,
+    "clean_release": false,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "relaxation": 0.5
+    }
+  },
+  {
+    "case": "thin-release",
+    "trial": "speculative0p25",
+    "iterations": 12,
+    "substeps": 1,
+    "retained": false,
+    "max_probe_slip_mm": 89.58704449595623,
+    "max_probe_rotation_deg": 137.58373988080456,
+    "max_acquisition_source_penetration_mm": 1.685295119163791,
+    "clean_release": false,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {
+      "contact_speculative_scale": 0.25
+    }
+  },
+  {
+    "case": "thin-release",
+    "trial": "substeps16",
+    "iterations": 12,
+    "substeps": 16,
+    "retained": true,
+    "max_probe_slip_mm": 0.008972583478123457,
+    "max_probe_rotation_deg": 0.05760309788913297,
+    "max_acquisition_source_penetration_mm": 0.06260974648109136,
+    "clean_release": true,
+    "diagnostic_candidate": true,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-release",
+    "trial": "substeps2",
+    "iterations": 12,
+    "substeps": 2,
+    "retained": false,
+    "max_probe_slip_mm": 91.78151010929324,
+    "max_probe_rotation_deg": 170.03561071044555,
+    "max_acquisition_source_penetration_mm": 1.6531299387926857,
+    "clean_release": false,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-release",
+    "trial": "substeps4",
+    "iterations": 12,
+    "substeps": 4,
+    "retained": true,
+    "max_probe_slip_mm": 0.3723126845298324,
+    "max_probe_rotation_deg": 2.129302126153935,
+    "max_acquisition_source_penetration_mm": 0.8604263667774072,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-release",
+    "trial": "substeps4_iterations96",
+    "iterations": 96,
+    "substeps": 4,
+    "retained": true,
+    "max_probe_slip_mm": 0.011644881669241014,
+    "max_probe_rotation_deg": 0.23123854723681217,
+    "max_acquisition_source_penetration_mm": 0.04695102809882272,
+    "clean_release": true,
+    "diagnostic_candidate": true,
+    "constructor_overrides": {}
+  },
+  {
+    "case": "thin-release",
+    "trial": "substeps8",
+    "iterations": 12,
+    "substeps": 8,
+    "retained": true,
+    "max_probe_slip_mm": 0.05475715252459251,
+    "max_probe_rotation_deg": 0.662512620974134,
+    "max_acquisition_source_penetration_mm": 0.24078980836034117,
+    "clean_release": true,
+    "diagnostic_candidate": false,
+    "constructor_overrides": {}
+  }
+]
