@@ -1,0 +1,23 @@
+{
+  "case": "thin-release",
+  "engine": "isaacsim",
+  "directory": "outputs/stock_yam_cases/runs/thin-release/isaacsim_d94df4c11db2",
+  "physics_timestep_s": 0.004166666666666667,
+  "hardware": "Pinned stock YAM arm + Linear 4310 CAD; synchronized jaws; original fingers",
+  "generic_pick_and_shake_checks": "See results.json; not the acceptance oracle for these new cases",
+  "min_final_hold_rise_mm": 79.80412244796753,
+  "median_hold_jaw_normal_N": [
+    2.0233206748962402,
+    2.010646104812622
+  ],
+  "max_hold_slip_mm": 0.012831684788827456,
+  "min_held_rise_mm": 79.78945970535278,
+  "retained_through_probe": true,
+  "clearance_margin_mm": 2.0,
+  "freefall_reference_available": true,
+  "certified_clear_time_s": 12.095833333333333,
+  "release_to_clear_ms": 595.8333333333333,
+  "free_interval_ms": 66.66666666666643,
+  "reference_evaluation_ms": 50.00000000000071,
+  "max_ballistic_error_mm": 1.0219388511751057
+}

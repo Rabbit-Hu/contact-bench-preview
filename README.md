@@ -18,3 +18,7 @@ The plots are available immediately; each 3D replay loads on request, with one a
 
 In Settings → Pages, select Deploy from a branch, `main`, and `/(root)`.
 This repository contains only the exported preview; benchmark code and simulation environments are maintained separately.
+
+## Stock-finger pilots
+
+`stock-yam/` contains measured thin-object capture and raised-release pilots using the original YAM/Linear 4310 CAD, with four GPU backends, CPU feasibility, analytical release references and dedicated physics timings. The frictionless-slide pilot is explicitly diagnostic and not promoted. Its `assets/` and `data/` directories contain only browser assets and derived metrics.

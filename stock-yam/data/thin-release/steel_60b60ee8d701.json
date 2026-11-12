@@ -1,0 +1,18 @@
+{
+  "case": "thin-release",
+  "engine": "steel",
+  "directory": "outputs/stock_yam_cases/runs/thin-release/steel_60b60ee8d701",
+  "physics_timestep_s": 0.004166666666666667,
+  "hardware": "Pinned stock YAM arm + Linear 4310 CAD; synchronized jaws; original fingers",
+  "generic_pick_and_shake_checks": "See results.json; not the acceptance oracle for these new cases",
+  "min_final_hold_rise_mm": -8.03673267364502,
+  "median_hold_jaw_normal_N": [
+    0.0,
+    0.0
+  ],
+  "max_hold_slip_mm": 88.65203484571295,
+  "min_held_rise_mm": -8.038818836212158,
+  "retained_through_probe": false,
+  "clearance_margin_mm": 2.0,
+  "freefall_reference_available": false
+}

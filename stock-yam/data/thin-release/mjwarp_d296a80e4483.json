@@ -1,0 +1,23 @@
+{
+  "case": "thin-release",
+  "engine": "mjwarp",
+  "directory": "outputs/stock_yam_cases/runs/thin-release/mjwarp_d296a80e4483",
+  "physics_timestep_s": 0.004166666666666667,
+  "hardware": "Pinned stock YAM arm + Linear 4310 CAD; synchronized jaws; original fingers",
+  "generic_pick_and_shake_checks": "See results.json; not the acceptance oracle for these new cases",
+  "min_final_hold_rise_mm": 79.80799674987793,
+  "median_hold_jaw_normal_N": [
+    1.793285459280014,
+    1.793201506137848
+  ],
+  "max_hold_slip_mm": 0.08585862005202147,
+  "min_held_rise_mm": 79.79178428649902,
+  "retained_through_probe": true,
+  "clearance_margin_mm": 2.0,
+  "freefall_reference_available": true,
+  "certified_clear_time_s": 12.108333333333333,
+  "release_to_clear_ms": 608.3333333333325,
+  "free_interval_ms": 70.83333333333464,
+  "reference_evaluation_ms": 50.00000000000071,
+  "max_ballistic_error_mm": 0.25548300332895346
+}

@@ -1,0 +1,23 @@
+{
+  "case": "thin-release",
+  "engine": "mujoco",
+  "directory": "outputs/stock_yam_cases/runs/thin-release/mujoco_5a44e0b07d84",
+  "physics_timestep_s": 0.0020833333333333333,
+  "hardware": "Pinned stock YAM arm + Linear 4310 CAD; synchronized jaws; original fingers",
+  "generic_pick_and_shake_checks": "See results.json; not the acceptance oracle for these new cases",
+  "min_final_hold_rise_mm": 79.81575204756986,
+  "median_hold_jaw_normal_N": [
+    1.7942295278335334,
+    1.794154505493257
+  ],
+  "max_hold_slip_mm": 0.06094385896102281,
+  "min_held_rise_mm": 79.79956795639565,
+  "retained_through_probe": true,
+  "clearance_margin_mm": 2.0,
+  "freefall_reference_available": true,
+  "certified_clear_time_s": 12.116666666666667,
+  "release_to_clear_ms": 616.6666666666672,
+  "free_interval_ms": 74.99999999999929,
+  "reference_evaluation_ms": 49.999999999998934,
+  "max_ballistic_error_mm": 0.5109375000009742
+}

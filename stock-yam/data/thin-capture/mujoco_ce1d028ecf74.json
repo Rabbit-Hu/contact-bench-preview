@@ -1,0 +1,21 @@
+{
+  "case": "thin-capture",
+  "engine": "mujoco",
+  "directory": "outputs/stock_yam_cases/runs/thin-capture/mujoco_ce1d028ecf74",
+  "physics_timestep_s": 0.004166666666666667,
+  "hardware": "Pinned stock YAM arm + Linear 4310 CAD; synchronized jaws; original fingers",
+  "generic_pick_and_shake_checks": "See results.json; not the acceptance oracle for these new cases",
+  "min_final_hold_rise_mm": 79.74005926734596,
+  "median_hold_jaw_normal_N": [
+    1.7697512687760688,
+    1.769683907291951
+  ],
+  "max_hold_slip_mm": 0.1302652569789185,
+  "min_held_rise_mm": 79.7247954093574,
+  "retained_through_probe": true,
+  "first_bilateral_contact_s": 3.6,
+  "nominal_source_aperture_at_contact_mm": 2.227903575562955,
+  "original_flat_plane_gap_at_cad_zero_mm": -1.0390432583037694,
+  "max_commanded_relative_jaw_speed_m_s": 0.055217013888889,
+  "reference": "Geometric contact and non-crossing; impact and post-contact lift are measured outcomes"
+}
